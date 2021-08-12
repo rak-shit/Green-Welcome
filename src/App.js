@@ -16,14 +16,13 @@ const InnerDiv = styled.div`
   @media (max-width: 520px) {
     grid-column: span 12;
     min-height: 0vh;
-    background-color: #9ae19d;
   }
 `;
 
 const Content = styled.div`
   padding: 8rem 5rem;
   @media (max-width: 520px) {
-    padding: 8rem 2rem;
+    padding: 3rem 2rem;
     text-align: center;
   }
 `;
@@ -82,6 +81,9 @@ const Logo = styled.img`
   max-width: 50%;
   height: auto;
   margin: auto;
+  @media (max-width: 520px) {
+    margin: 2rem auto;
+  }
 `;
 
 const App = () => {
@@ -133,7 +135,7 @@ const App = () => {
               </JoinButton>
             </GridItem>
           </Grid>
-          <GreenContent style={{ fontSize: '12px', marginTop: '8px' }}>
+          <GreenContent style={{ fontSize: '12px', marginTop: '8px', textAlign: 'left' }}>
             *Your e-mail is encrypted.
           </GreenContent>
         </Content>
