@@ -136,7 +136,7 @@ const App = () => {
             </GridItem>
           </Grid>
           <GreenContent style={{ fontSize: '12px', marginTop: '8px', textAlign: 'left' }}>
-            *Your e-mail is encrypted.
+            *Your e-mail will not be shared with anyone.
           </GreenContent>
         </Content>
       </InnerDiv>
